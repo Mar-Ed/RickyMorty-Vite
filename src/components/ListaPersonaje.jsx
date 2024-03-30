@@ -29,9 +29,9 @@ function ListaPersonaje() {
       setLoading(false);
     }
     fetchData();
-  }, [page]);
+  }, [page]); //Hola
   return (
-    <div className="container">
+    <div className="container"> 
       <NavPage page={page} setPage={setPage} />
 
       {loading ? (
