@@ -4,13 +4,13 @@ import Personaje from "./Personaje";
 function NavPage({ page, setPage }){
   return (
     <header className="d-flex justify-content-between align-items-center">
-      <p>Page: {page}</p>
+      <p>Página: {page}</p>
 
       <button
         className="btn btn-primary btn-sm"
         onClick={() => setPage(page + 1)}
       >
-        Page {page + 1}
+        Página {page + 1}
       </button>
     </header>
   );
